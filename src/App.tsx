@@ -90,6 +90,10 @@ const App = () => {
             Next Question
           </button>
         ) : null}
+        <p className="footer">
+          Created with ❤ by:{" "}
+          <a href="https://vedanshmehra.netlify.app">Vedansh Mehra</a>
+        </p>
       </Wrapper>
     </>
   );

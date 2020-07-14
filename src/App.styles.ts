@@ -65,4 +65,14 @@ export const Wrapper = styled.div`
   .start {
     max-width: 200px;
   }
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    color: #ecf0f1;
+
+    > a {
+      color: #ecf0f1;
+      text-decoration: none;
+    }
+  }
 `;
